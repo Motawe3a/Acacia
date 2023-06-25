@@ -75,9 +75,9 @@ Fixed Navigation
 
 				<div class="collapse navbar-collapse" id="navigation">
 					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item ">
+						<!-- <li class="nav-item ">
 							<a class="nav-link" href="about.html">About</a>
-						</li>
+						</li> -->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -125,9 +125,52 @@ End Fixed Navigation
 							to
 							its customers by adopting the best professional practices in the real estate field,<br> to
 							become a reference and a milestone for investing in real estate assets.</p>
-						<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
-							href="#about">Explore Us</a>
 					</div>
+
+					<div class="col-lg-12 mt-5">
+						<form id="search-form" name="gs" method="submit" role="search" action="#">
+							<div class="row">
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory"
+											onchange="this.form.click()">
+											<option selected>All Areas</option>
+											<option value="Riyadh">Riyadh</option>
+											<option value="Jeddah">Jeddah</option>
+											<option value="Madina">Madina</option>
+											<option value="Makkah">Makkah</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<input type="address" name="address" class="searchText"
+											placeholder="Enter a location" autocomplete="on" required>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="price" class="form-select" aria-label="Default select example"
+											id="chooseCategory" onchange="this.form.click()">
+											<option selected>Price Range</option>
+											<option value="$100 - $250">$100 - $250</option>
+											<option value="$250 - $500">$250 - $500</option>
+											<option value="$500 - $1000">$500 - $1,000</option>
+											<option value="$1000+">$1,000 or more</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3">
+									<fieldset>
+										<button class="main-button">
+											<i class="tf-ion-ios-search-strong"></i>Search Now
+										</button>
+									</fieldset>
+								</div>
+							</div>
+						</form>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -140,8 +183,49 @@ End Fixed Navigation
 						<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">A promising company
 							that aims to provide unique real estate services in accordance with modern best practices.
 						</p>
-						<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
-							href="#about">Explore Us</a>
+					</div>
+					<div class="col-lg-12 mt-5">
+						<form id="search-form" name="gs" method="submit" role="search" action="#">
+							<div class="row">
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory"
+											onchange="this.form.click()">
+											<option selected>All Areas</option>
+											<option value="Riyadh">Riyadh</option>
+											<option value="Jeddah">Jeddah</option>
+											<option value="Madina">Madina</option>
+											<option value="Makkah">Makkah</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<input type="address" name="address" class="searchText"
+											placeholder="Enter a location" autocomplete="on" required>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="price" class="form-select" aria-label="Default select example"
+											id="chooseCategory" onchange="this.form.click()">
+											<option selected>Price Range</option>
+											<option value="$100 - $250">$100 - $250</option>
+											<option value="$250 - $500">$250 - $500</option>
+											<option value="$500 - $1000">$500 - $1,000</option>
+											<option value="$1000+">$1,000 or more</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3">
+									<fieldset>
+										<button class="main-button">
+											<i class="tf-ion-ios-search-strong"></i>Search Now
+										</button>
+									</fieldset>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -157,7 +241,7 @@ Start About Section
 				<!-- section title -->
 				<div class="col-lg-6">
 					<div class="title text-center">
-						<h2>We Acacia</h2>
+						<h2>About Acacia</h2>
 						<p>Digital transformation of real estate services, which ensures an easy customer experience.
 						</p>
 						<div class="border"></div>
