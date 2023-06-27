@@ -84,7 +84,7 @@ Fixed Navigation
 								Services & products <i class="tf-ion-chevron-down"></i>
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="real_state.html">Real estate</a></li>
+								<!-- <li><a class="dropdown-item" href="real_state.html">Real estate</a></li> -->
 								<li><a class="dropdown-item" href="construction.html">Construction</a></li>
 								<li><a class="dropdown-item" href="operation_maintainence.html">Operation and
 										maintenance</a></li>
@@ -114,7 +114,7 @@ End Fixed Navigation
 ==================================== -->
 
 	<div class="hero-slider">
-		<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
+		<!-- <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
@@ -178,8 +178,8 @@ End Fixed Navigation
 
 				</div>
 			</div>
-		</div>
-		<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-2.jpg);">
+		</div> -->
+		<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
@@ -190,7 +190,8 @@ End Fixed Navigation
 						</p>
 					</div>
 					<div class="col-lg-12 mt-5">
-						<form id="search-form" name="gs" method="submit" role="search" action="#">
+						<!-- <form id="search-form" name="gs" method="submit" role="search" action="#"> -->
+						<form id="search-form" name="gs" role="search" action="Acacia-work.html">
 							<div class="row">
 								<div class="col-lg-3 align-self-center">
 									<fieldset>
@@ -206,8 +207,13 @@ End Fixed Navigation
 								</div>
 								<div class="col-lg-3 align-self-center">
 									<fieldset>
-										<input type="address" name="address" class="searchText"
-											placeholder="Enter a location" autocomplete="on" required>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory2"
+											onchange="this.form.click()">
+											<option selected>All Purposes</option>
+											<option value="Saving">Saving</option>
+											<option value="Investment">Investment</option>
+											<option value="Rent">Rent</option>
+										</select>
 									</fieldset>
 								</div>
 								<div class="col-lg-3 align-self-center">
@@ -237,13 +243,10 @@ End Fixed Navigation
 		</div>
 	</div>
 
-	<!--
-Start About Section
-==================================== -->
 	<section class="about-2 section" id="about">
 		<div class="container">
 			<div class="row justify-content-center">
-				<!-- section title -->
+
 				<div class="col-lg-6">
 					<div class="title text-center">
 						<h2>About Acacia</h2>
@@ -252,7 +255,7 @@ Start About Section
 						<div class="border"></div>
 					</div>
 				</div>
-				<!-- /section title -->
+
 			</div>
 
 			<div class="row">
@@ -273,9 +276,9 @@ Start About Section
 
 					</ul>
 				</div>
-			</div> <!-- End row -->
-		</div> <!-- End container -->
-	</section> <!-- End section -->
+			</div>
+		</div>
+	</section>
 
 
 	<!--
@@ -298,7 +301,7 @@ Start About Section
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row text-center">
-						<div class="col-md-4 col-sm-4">
+						<!-- <div class="col-md-4 col-sm-4">
 							<div class="service-item" onclick="window.location.href='real_state.html'">
 								<i class="tf-ion-ios-alarm-outline"></i>
 								<h4>Real Estate</h4>
@@ -307,8 +310,8 @@ Start About Section
 									the customer's needs.
 								</p>
 							</div>
-						</div><!-- END COL -->
-						<div class="col-md-4 col-sm-4">
+						</div> -->
+						<div class="col-md-6 col-sm-4">
 							<div class="service-item" onclick="window.location.href='construction.html'">
 								<i class="tf-ion-ios-briefcase-outline"></i>
 								<h4>Construction</h4>
@@ -317,7 +320,7 @@ Start About Section
 									cadres trained on the highest standards of quality and safety.</p>
 							</div>
 						</div><!-- END COL -->
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-6 col-sm-4">
 							<div class="service-item" onclick="window.location.href='operation_maintainence.html.html'">
 								<i class="tf-ion-ios-email-outline"></i>
 								<h4>Operation Maintenance</h4>
@@ -331,6 +334,417 @@ Start About Section
 			</div> <!-- End row -->
 		</div> <!-- End container -->
 	</section> <!-- End section -->
+
+
+
+	<!--
+Start About Section
+==================================== -->
+
+
+
+
+	<section class="company-mission section-sm bg-gray">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2><span class="color">Our Values</span></h2>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<img loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-1.svg" alt="icon">
+					<h3>Quality</h3>
+					<p>We always strive for the interest of our partners to be the beginning of the road to excellence
+						and innovation by carrying out tasks with complete professionalism in order to transcend our
+						partners by creating added value for their projects.</p>
+					<!-- <img loading="lazy" src="images/company/company-image-2.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0 mb-3">
+					<img loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-2.svg" alt="icon">
+					<h3>Honesty</h3>
+					<p>In Acacia, we work on the principle of clarity and honesty in all dealings by presenting all data
+						in an understandable and clear manner</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0">
+					<img loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-1.svg" alt="icon">
+					<h3>Innovation and Development</h3>
+					<p>Always participating in presenting distinctive ideas in addition to keeping pace with modern
+						technologies to present our creative touches in the real estate field</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0">
+					<img loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-4.svg" alt="icon">
+					<h3>Team Work</h3>
+					<p>Formation of a strong relationship between the technical staff that develops the interest of the
+						company by committing to implementing tasks and goals that guarantee positive results for faster
+						growth.
+					</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog" id="blog">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2><span class="color">Our Services</span></h2>
+						<div class="border"></div>
+						<p>What we offer</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper" style="text-align: center;">
+							<img class="pt-5" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-1.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a href="single-post.html">Real Estate development</a></h3>
+							<p>In Acacia, we have highly experienced technical staff that help develop real estate
+								products in an optimal way, according to studies and designs that achieve the maximum
+								possible benefit.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper" style="text-align: center;">
+							<img class="pt-5" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-2.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a href="single-post.html">Property Management</a></h3>
+							<p>We seek in Acacia Real Estate, through the specialized work team, to manage real estate
+								properties according to the highest quality standards, in a way that guarantees the
+								preservation of the value of the real estate asset and the growth of its revenues.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper" style="text-align: center;">
+							<img class="pt-5" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-3.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a href="single-post.html">Real Estate Marketing</a></h3>
+							<p>In Acacia Real Estate, we have the experience and knowledge of the real estate market
+								needs and a network of relationships from companies and individuals that contribute to
+								the effective ability to market various real estate products.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper" style="text-align: center;">
+							<img class="pt-5" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-4.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a href="single-post.html">Real estate Appraisal </a></h3>
+							<p>By following the approved standards in real estate appraisal and with a trained team that
+								holds the necessary certificates, we at Acacia Real Estate do real estate appraisal
+								services.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper" style="text-align: center;">
+							<img class="pt-5" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-4.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a href="single-post.html">Maintenance and Operation</a></h3>
+							<p>Carrying out all maintenance work for the property in the common areas and inside the
+								residential and commercial units, by providing skilled labor and dealing with the best
+								consumer suppliers to preserve the assets, and providing cleaning services to maintain a
+								healthy life and an attractive environment.
+							</p>
+						</div>
+					</div>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Start Counter Section -->
+	<section class="counter-wrapper section-sm">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8 text-center">
+					<div class="title">
+						<h2>Award-Winning</h2>
+						<p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed
+							condimentum iaculis ex, in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi
+							sed tortor a risus luctus dignissim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- first count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-alarm-outline"></i>
+						<div>
+							<span class="counter" data-count="150">0</span>
+						</div>
+						<h3>Happy Clients</h3>
+					</div>
+				</div>
+				<!-- end first count item -->
+
+				<!-- second count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-analytics-outline"></i>
+						<div>
+							<span class="counter" data-count="130">0</span>
+						</div>
+						<h3>Projects completed</h3>
+					</div>
+				</div>
+				<!-- end second count item -->
+
+				<!-- third count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-compose-outline"></i>
+						<div>
+							<span class="counter" data-count="99">0</span>
+						</div>
+						<h3>Positive feedback</h3>
+
+					</div>
+				</div>
+				<!-- end third count item -->
+
+				<!-- fourth count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item kill-border">
+						<i class="tf-ion-ios-bolt-outline"></i>
+						<div>
+							<span class="counter" data-count="250">0</span>
+						</div>
+						<h3>Cups of Coffee</h3>
+					</div>
+				</div>
+				<!-- end fourth count item -->
+			</div> <!-- end row -->
+		</div> <!-- end container -->
+	</section>
+
+
+	<!-- <section class="call-to-action-2 section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tempor eros. Pellentesque
+						elementum nulla sed justo tempor posuere sit amet sit amet ligula.</h2>
+				</div>
+			</div> 
+		</div>  
+	</section> -->
+
+	<!-- <section class="section gallery">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center">
+						<h2>Sneak Peak Gallery</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore numquam esse vitae
+							recusandae qui
+							aspernatur, blanditiis, laboriosam dignissimos dolore facere provident ex? Porro,
+							praesentium consectetur
+							tempore. Nulla, error eius dolorem.</p>
+						<div class="border"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="company-gallery">
+						<img loading="lazy" src="images/company/gallery-1.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-2.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-3.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-4.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-1.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-2.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-3.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-4.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+	<section class="team" id="team">
+		<div class="container">
+			<div class="row justify-content-center">
+				<!-- section title -->
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2>Some Of Our Work</h2>
+						<div class="border"></div>
+					</div>
+				</div>
+				<!-- /section title -->
+			</div>
+			<div class="row">
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/store-5619201_1920-400x310.jpg"
+								alt="Meghna">
+							<!-- /member photo -->
+
+							<!-- member social profile -->
+							<div class="mask">
+								<ul class="clearfix">
+									<li><a href="#"><i class="tf-ion-social-facebook"></i></a>
+									</li>
+									<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a> -->
+									</li>
+									<li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+									<!-- <li><a href="#"><i class="tf-ion-social-dribbble"></i></a> -->
+									</li>
+								</ul>
+							</div>
+							<!-- /member social profile -->
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia Logestics</h3>
+							<span>Warehouse complex</span>
+							<p>A warehouse complex built on an area of ​​​​8000 square meters, containing 20 warehouses
+								of different sizes and equipped according to the regulations of civil defense and the
+								Secretariat.</p>
+						</div>
+						<!-- /member name & designation -->
+
+					</div>
+				</div>
+				<!-- end team member -->
+
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/construction-889171_1920-400x310.jpg"
+								alt="Meghna">
+							<!-- /member photo -->
+
+							<!-- member social profile -->
+							<div class="mask">
+								<ul class="clearfix">
+									<li><a href="#"><i class="tf-ion-social-facebook"></i></a>
+									</li>
+									<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a> -->
+									</li>
+									<li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+									<!-- <li><a href="#"><i class="tf-ion-social-dribbble"></i></a> -->
+									</li>
+								</ul>
+							</div>
+							<!-- /member social profile -->
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia 1</h3>
+							<span>A development project in the heart of the capital, Riyadh</span>
+							<p>It is a development project in the heart of the capital, Riyadh, located on Imam
+								Abdulaziz bin Muhammad bin Saud Road near King Saud Medical City, and the project
+								contains more than 90 residential units of different sizes and commercial showrooms with
+								commercial areas exceeding 800 square meters.</p>
+						</div>
+						<!-- /member name & designation -->
+					</div>
+				</div>
+				<!-- end team member -->
+
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/buildings-205986_1920-400x310.jpg"
+								alt="Meghna">
+							<!-- /member photo -->
+
+							<!-- member social profile -->
+							<div class="mask">
+								<ul class="clearfix">
+									<li><a href="#"><i class="tf-ion-social-facebook"></i></a>
+									</li>
+									<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a> -->
+									</li>
+									<li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+									<!-- <li><a href="#"><i class="tf-ion-social-dribbble"></i></a> -->
+									</li>
+								</ul>
+							</div>
+							<!-- /member social profile -->
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia 2</h3>
+							<span>Apartment complex</span>
+							<p>It is a development project in the heart of the capital, Riyadh, on Imam Abdulaziz bin
+								Muhammad bin Saud Road, near King Saud Medical City. The project contains more than 90
+								housing units of different sizes and commercial showrooms.</p>
+						</div>
+						<!-- /member name & designation -->
+
+					</div>
+				</div>
+				<!-- end team member -->
+			</div> <!-- End row -->
+		</div> <!-- End container -->
+	</section> 
+
 
 	<!-- <section class="blog" id="blog">
 		<div class="container">
@@ -432,7 +846,7 @@ Start About Section
 							<li>
 								<h3>Our Services</h3>
 							</li>
-							<li><a href="real_state.html">Real state</a></li>
+							<!-- <li><a href="real_state.html">Real state</a></li> -->
 							<li><a href="construction.html">Construction</a></li>
 							<li><a href="operation_maintainence.html">Operation and Maintenance</a></li>
 						</ul>
@@ -444,8 +858,8 @@ Start About Section
 							<li>
 								<h3>Quick Links</h3>
 							</li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="real_state.html">Real state</a></li>
+							<!-- <li><a href="about.html">About</a></li> -->
+							<!-- <li><a href="real_state.html">Real state</a></li> -->
 							<li><a href="construction.html">Construction</a></li>
 							<li><a href="operation_maintainence.html">Operation and Maintenance</a></li>
 							<li><a href="contact.html">Contact</a></li>
@@ -474,7 +888,7 @@ Start About Section
 			<h5>&copy; Copyright 2020. All rights reserved.</h5>
 			<h6>Design and Developed by <a href="https://motawea-portfolio.netlify.app/">Motawea</a></h6>
 		</div>
-	</footer> <!-- end footer -->
+	</footer>
 
 
 	<!-- end Footer Area
