@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'themefisher-font';
+  font-family: "TheSans";
   src:  url('fonts/themefisher-font.eot?ug5hnh');
   src:  url('fonts/themefisher-font.eot?ug5hnh#iefix') format('embedded-opentype'),
     url('fonts/themefisher-font.ttf?ug5hnh') format('truetype'),
@@ -11,7 +11,7 @@
 
 [class^="tf-"], [class*=" tf-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'themefisher-font' !important;
+  font-family: "TheSans" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

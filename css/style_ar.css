@@ -1066,7 +1066,7 @@ form#search-form button i {
 .counters-item i {
   font-size: 40px;
   display: inline-block;
-  color: #28ABE3;
+  color: #3f3f3f;
 }
 .counters-item h3 {
   font-size: 18px;
@@ -1268,12 +1268,12 @@ form#search-form button i {
 }
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #28ABE3;
+  color: #3f3f3f;
 }
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #28ABE3 none repeat scroll 0 0;
+  background: #3f3f3f none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1397,7 +1397,7 @@ form#search-form button i {
   transition: all 0.6s ease 0s;
 }
 .team .member-photo .mask {
-  background: rgba(40, 171, 227, 0.7);
+  background: #3f3f3f;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -1504,6 +1504,7 @@ form#search-form button i {
   background-color: #E8EAF3;
   border: 1px solid #ABAFC7;
   border-radius: 15px;
+  min-height: 336px;
 }
 .post-item .content {
   padding: 20px;
