@@ -1487,6 +1487,23 @@ Listing Page
   color: #fff;
   min-height: 270px;
 }
+.service-block{
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.service-block:hover{
+  background-color: #3f3f3f;
+}
+.service-block:hover h3, .service-block:hover p{
+  cursor: pointer;
+  color: #AF924C !important;
+}
+.service-block .service-icon i::before{
+  color: #3f3f3f !important;
+}
+.service-block:hover .service-icon i::before {
+  color: #AF924C !important;
+}
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
   color: #fff;
 }
