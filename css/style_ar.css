@@ -1996,6 +1996,13 @@ Listing Page
 .widget-post-content h5:hover {
   color: #28ABE3;
 }
+.price {
+  transition: all .2s ease-in-out;
+}
+.price:hover .order_service {
+  cursor: pointer;
+  color: #2b2d42;
+}
 
 /*=================================================================
   Single Blog Page
