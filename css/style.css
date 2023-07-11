@@ -9,7 +9,7 @@ body {
 p {
   font-family: "Source Sans Pro", sans-serif;
   color: #848484;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.65;
 }
 
@@ -1778,7 +1778,7 @@ Listing Page
   background-color: #E8EAF3;
   border: 1px solid #ABAFC7;
   border-radius: 15px;
-  min-height: 336px;
+  min-height: 297px;
 
 }
 .post-item .content {
