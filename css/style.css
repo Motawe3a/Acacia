@@ -486,7 +486,7 @@ form#search-form button i {
 } 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
   background: none;
-  color: #28ABE3;
+  color: #3f3f3f;
 }
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #28ABE3;
@@ -1153,12 +1153,11 @@ Listing Page
   color: #777;
   font-family: "Source Sans Pro", sans-serif;
 }
-.about-2 .checklist li:before {
+.about-2 .checklist li i {
   position: absolute;
   margin-right: 12px;
   margin-left: -45px;
-  content: "\f375";
-  font-family: "themefisher-font";
+
   opacity: 1;
   border-radius: 50%;
   padding: 2px 8px;
