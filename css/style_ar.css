@@ -568,7 +568,7 @@ form#search-form button i {
   visibility: hidden;
   opacity: 0;
   padding: 0;
-  background: #000;
+  background: #3f3f3f;
   transition: 0.3s ease;
 }
 .navigation .dropdown-menu li:first-child {
@@ -1000,7 +1000,7 @@ form#search-form button i {
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #28ABE3;
+  background: #3f3f3f;
   color: #fff;
   border-radius: 0;
 }
@@ -1486,20 +1486,23 @@ Listing Page
 }
 .service-block{
   height: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.2s ease-in-out;
+
 }
 .service-block:hover{
-  background-color: #3f3f3f;
+  background-color: #AF924C;
+  margin-top: 15px;
 }
 .service-block:hover h3, .service-block:hover p{
   cursor: pointer;
-  color: #AF924C !important;
+  color: #fff !important;
 }
 .service-block .service-icon i::before{
   color: #3f3f3f !important;
 }
 .service-block:hover .service-icon i::before {
-  color: #AF924C !important;
+  color: #000 !important;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
   color: #fff;
