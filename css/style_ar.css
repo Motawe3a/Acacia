@@ -263,7 +263,7 @@ a:focus, a:hover {
   margin: 20px auto 20px;
   position: relative;
   width: 80px;
-  background: #28ABE3;
+  background: #3f3f3f;
 }
 
 .bg-gray {
@@ -403,6 +403,8 @@ form#search-form {
   padding: 0px 30px 0px 0px;
   width: 100%;
   border-radius: 7px;
+  border-bottom-left-radius: 26%;
+  border-top-left-radius: 26%;
   display: inline-block;
   text-align: center;
 }
@@ -877,7 +879,11 @@ form#search-form button i {
 
 .menu_custom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+.menu_custom div{
+  width: 32%;
 }
 
 /* /slick arrows */
@@ -1106,19 +1112,19 @@ Listing Page
 }
 
 .listing-page .naccs .menu div.first-thumb {
-  border-radius: 7px;
+  border-radius: 1px;
 }
 
 .listing-page .naccs .menu div.last-thumb {
   margin-bottom: 0px;
-  border-radius: 7px;
+  border-radius: 1px;
 }
 
 .listing-page .naccs .menu div {
-  color: #fff;
+  color: #3f3f3f;
   font-size: 15px;
-  border-radius: 7px;
-  background-color: #8d99af;
+  border-radius: 1px;
+  background-color: #fff;
   float: right;
   margin-bottom: 30px;
   height: 126px;
@@ -1132,7 +1138,8 @@ Listing Page
 
 .listing-page .naccs .menu div.active,
 .listing-page .naccs .menu div.active .thumb {
-  background-color: #3f3f3f;
+  background-color: #AF924C;
+  color: #fff;
 }
 
 .listing-page ul.nacc {
@@ -1662,16 +1669,19 @@ Listing Page
 .team .team-member .member-content h3 {
   font-size: 20px;
   margin: 0 0 5px;
+  margin-bottom: 15px;
   color: #333;
 }
 .team .team-member .member-content span {
   font-size: 14px;
-  color: #555;
-}
+  padding: 5px;
+  background: #3f3f3f;
+  border-radius: 10px;
+  color: #fff;}
 .team .team-member .member-content p {
   color: #777;
   margin-top: 10px;
-  padding: 0 15px;
+  padding: 10px 15px 0 15px;
 }
 .team .member-photo {
   overflow: hidden;
@@ -1980,7 +1990,7 @@ Listing Page
   margin-right: 10px;
 }
 .widget-categories-list li a:hover {
-  background: #28ABE3;
+  background: #3f3f3f;
   color: #fff;
   padding-left: 20px;
 }
@@ -2351,6 +2361,15 @@ Listing Page
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
+  .listing-page .naccs .menu div.first-thumb {
+    width: 100%;
+  }
+  .listing-page .naccs .menu div.last-thumb {
+    width: 100%;
+  }
+  .listing-page .naccs .menu>div{
+    width: 100%;
+  }
   .menu_custom {
     flex-direction: column;
   }
@@ -2475,6 +2494,15 @@ Listing Page
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .listing-page .naccs .menu div.first-thumb {
+    width: 100%;
+  }
+  .listing-page .naccs .menu div.last-thumb {
+    width: 100%;
+  }
+  .listing-page .naccs .menu>div{
+    width: 100%;
+  }
   .menu_custom {
     flex-direction: column;
   }
