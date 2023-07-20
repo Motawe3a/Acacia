@@ -875,6 +875,11 @@ form#search-form button i {
   left: 20px;
 }
 
+.menu_custom {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* /slick arrows */
 /*=================================================================
   About us section
@@ -1071,7 +1076,7 @@ Listing Page
 
 
 .listing-page {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   margin-bottom: 120px;
 }
 
@@ -1114,6 +1119,7 @@ Listing Page
   font-size: 15px;
   border-radius: 7px;
   background-color: #8d99af;
+  float: right;
   margin-bottom: 30px;
   height: 126px;
   text-align: left;
@@ -2345,6 +2351,9 @@ Listing Page
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
+  .menu_custom {
+    flex-direction: column;
+  }
   .counters-item:before {
     display: none;
   }
@@ -2466,6 +2475,9 @@ Listing Page
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .menu_custom {
+    flex-direction: column;
+  }
   .title h2 {
     font-size: 32px;
   }

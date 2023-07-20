@@ -877,7 +877,7 @@ Listing Page
 
 
 .listing-page {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   margin-bottom: 120px;
 }
 
@@ -1096,6 +1096,12 @@ Listing Page
 .listing-page .owl-dots .active {
   width: 14px;
   height: 14px;
+}
+
+
+.menu_custom {
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -2273,6 +2279,9 @@ Listing Page
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
 @media (min-width: 768px) and (max-width: 979px) {
+  .menu_custom {
+    flex-direction: column;
+  }
   .counters-item:before {
     display: none;
   }
@@ -2463,6 +2472,9 @@ Listing Page
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .menu_custom {
+    flex-direction: column;
+  }
   .title h2 {
     font-size: 32px;
   }
