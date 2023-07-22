@@ -2186,6 +2186,26 @@ Listing Page
   height: auto;
 }
 
+.small_c_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+}
+
+.small_c_wrapper img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.small_c_wrapper span {
+  line-height: 0;
+  margin-top: 20px;
+}
 /*=================================================================
   Footer section
 ==================================================================*/
@@ -2291,6 +2311,10 @@ Listing Page
   .menu_custom {
     flex-direction: column;
   }
+  form#search-form {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+  }
   .counters-item:before {
     display: none;
   }
@@ -2362,6 +2386,10 @@ Listing Page
 @media only screen and (max-width: 767px) {
   .listing-page .naccs .menu div.first-thumb {
     width: 100%;
+  }
+  form#search-form {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
   }
   .listing-page .naccs .menu div.last-thumb {
     width: 100%;
@@ -2492,6 +2520,10 @@ Listing Page
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .listing-page .naccs .menu div.first-thumb {
     width: 100%;
+  }
+  form#search-form {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
   }
   .listing-page .naccs .menu div.last-thumb {
     width: 100%;
