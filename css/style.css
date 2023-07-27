@@ -371,7 +371,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("../images/about/about-header.jpg");
+  background-image: url("../images/slider/slider-bg-1.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
@@ -935,6 +935,11 @@ Listing Page
 .listing-page .naccs .menu div.active,
 .listing-page .naccs .menu div.active .thumb {
   background-color: #AF924C;
+  color: #fff;
+}
+.listing-page.con .naccs .menu div.active,
+.listing-page.con .naccs .menu div.active .thumb {
+  background-color: #3f3f3f;
   color: #fff;
 }
 
