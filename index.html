@@ -36,6 +36,902 @@
 
 <body id="body">
 
+	<!--
+  Start Preloader
+  ==================================== -->
+	<div id="preloader">
+		<div class='preloader'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!--
+  End Preloader
+  ==================================== -->
+
+	<!--
+Fixed Navigation
+==================================== -->
+	<header class="navigation fixed-top">
+		<div class="container">
+			<!-- main nav -->
+			<nav class="navbar navbar-expand-lg navbar-light px-0">
+				<!-- logo -->
+				<a class="navbar-brand logo" href="index.html">
+					<!-- <h1 style="color: #000;" class="logo-default">Acacia</h1>
+					<h1 style="color: #fff;" class="logo-white">Acacia</h1> -->
+					<img loading="lazy" width="100" class="logo-default" src="images/Acacia_ar.png" alt="logo" />
+					<img loading="lazy" width="100" class="logo-white" src="images/Acacia_en.png" alt="logo" />
+				</a>
+				<!-- /logo -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="navbar-nav ml-auto text-center">
+						<!-- <li class="nav-item ">
+							<a class="nav-link" href="about.html">About</a>
+						</li> -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Sectors <i class="tf-ion-chevron-down"></i>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="index.html">Real Estate</a></li>
+								<li><a class="dropdown-item" href="construction.html">Construction</a></li>
+								<li><a class="dropdown-item" href="operation_maintainence.html">Operation and
+										maintenance</a></li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" rel="noopener" href="#abouti">About Us</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" rel="noopener" href="#services">Services</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link lang" href="index_ar.html">العربية</a>
+						</li>
+						<li class="nav-item d-flex align-items-center"
+							style="font-size: 25px; position: fixed; bottom: 30px; left: 40px;">
+							<a href="tel:966118030006">
+								<!-- <i class="tf-ion-social-whatsapp"></i> -->
+								<img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="icon"
+									width="30px">
+							</a>
+						</li>
+						<!-- 
+						<li class="nav-item ">
+							<a class="nav-link" href="team.html">Team</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="pricing.html">Pricing</a>
+						</li> -->
+					</ul>
+				</div>
+			</nav>
+			<!-- /main nav -->
+		</div>
+	</header>
+	<!--
+End Fixed Navigation
+==================================== -->
+
+	<div class="hero-slider">
+		<!-- <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Acacia Real
+							State</h1>
+						<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">A Saudi company based
+							in the capital Riyadh, in order to provide the best real estate solutions and services <br>
+							to
+							its customers by adopting the best professional practices in the real estate field,<br> to
+							become a reference and a milestone for investing in real estate assets.</p>
+					</div>
+
+					<div class="col-lg-12 mt-5">
+						<form id="search-form" name="gs" method="submit" role="search" action="#">
+							<div class="row">
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory"
+											onchange="this.form.click()">
+											<option selected>All Areas</option>
+											<option value="Riyadh">Riyadh</option>
+											<option value="Jeddah">Jeddah</option>
+											<option value="Madina">Madina</option>
+											<option value="Makkah">Makkah</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory2"
+											onchange="this.form.click()">
+											<option selected>All Purposes</option>
+											<option value="saving">saving</option>
+											<option value="Investment">Investment</option>
+											<option value="Rent">Rent</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="price" class="form-select" aria-label="Default select example"
+											id="chooseCategory" onchange="this.form.click()">
+											<option selected>All Building Types</option>
+											<option value="Apartment">Apartment</option>
+											<option value="Commercial building">Commercial building</option>
+											<option value="Apartment complex">Apartment complex</option>
+											<option value="Warehouse complex">Warehouse complex</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3">
+									<fieldset>
+										<button class="main-button">
+											<i class="tf-ion-ios-search-strong"></i>Search Now
+										</button>
+									</fieldset>
+								</div>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div> -->
+		<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
+			<div class="container mt-5">
+				<div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Acacia Real
+							Estate</h1>
+						<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">
+
+							A Saudi company based in the capital, Riyadh, with the aim of providing the best options and
+							services
+							<br>
+							real estate to its partners through
+							Adopting best professional practices in the real estate field،
+							<br>
+							To become a reference and a benchmark in the real estate sector in the Kingdom of Saudi
+							Arabia. </p>
+					</div>
+					<div class="col-lg-12 mt-5">
+						<!-- <form id="search-form" name="gs" method="submit" role="search" action="#"> -->
+						<form id="search-form" name="gs" role="search" action="Acacia-work.html">
+							<div class="row">
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory"
+											onchange="this.form.click()">
+											<option selected>All Areas</option>
+											<option value="Riyadh">Riyadh</option>
+											<option value="Jeddah">Jeddah</option>
+											<option value="Madina">Madina</option>
+											<option value="Makkah">Makkah</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="area" class="form-select" aria-label="Area" id="chooseCategory2"
+											onchange="this.form.click()">
+											<option selected>All Purposes</option>
+											<option value="Saving">Saving</option>
+											<option value="Investment">Investment</option>
+											<option value="Rent">Rent</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3 align-self-center">
+									<fieldset>
+										<select name="price" class="form-select" aria-label="Default select example"
+											id="chooseCategory" onchange="this.form.click()">
+											<option selected>Price Range</option>
+											<option value="$100 - $250">$100 - $250</option>
+											<option value="$250 - $500">$250 - $500</option>
+											<option value="$500 - $1000">$500 - $1,000</option>
+											<option value="$1000+">$1,000 or more</option>
+										</select>
+									</fieldset>
+								</div>
+								<div class="col-lg-3">
+									<fieldset>
+										<button class="main-button" style="background-color: #3f3f3f !important;">
+											<i class="tf-ion-ios-search-strong"></i>Search Now
+										</button>
+									</fieldset>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<span id="abouti" style="background-color: #f7f7f7; display: block;">
+		<br><br><br><br>
+	</span>
+
+	<section class="about-2 section">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-lg-6">
+					<div class="title text-center">
+						<h2>About Acacia</h2>
+						<!-- <p>Digital transformation of real estate services, which ensures an easy customer experience. -->
+						</p>
+						<div class="border"></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6 mb-4 mb-md-0">
+					<img loading="lazy" width="350" src="images/Acacia_ar.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-md-6">
+					<ul class="checklist">
+						<li><i class="tf-ion-ios-book-outline"></i> Acacia Real Estate Company is considered one of the
+							most prominent real estate companies in Saudi Arabia, and it was established in 2016
+							As it entered the real estate market with firm and strong steps, which play an integrated
+							role in achieving the aspirations of the vision
+							Kingdom 2030 in architectural growth. The company is also working to develop its business
+							and raise its efficiency to achieve goals
+							And the successes of its clients, specializing in real estate consulting, asset management
+							and contracting, based in the capital
+							Riyadh, Saudi Arabia</li>
+						<li> <i class="tf-ion-ios-book-outline"></i>
+							The company operates according to three sectors:<br>
+							Real Estate Investment.<br>
+							Constructions.<br>
+							Operation and Maintainence.
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="company-mission section-sm bg-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="mb-3" loading="lazy" width="60px"
+						src="https://cdn-icons-png.flaticon.com/512/1628/1628441.png" alt="icon">
+
+					<h3>Our Vision</h3>
+					<p>To be the leading company in the contracting sector by applying the best strategies and plans to
+						carry out works <br> with high and distinguished quality</p>
+					<!-- <img loading="lazy" src="images/company/vision.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0">
+					<img class="mb-3" loading="lazy" width="60px"
+						src="https://cdn-icons-png.flaticon.com/512/589/589708.png" alt="icon">
+
+					<h3>Our Message</h3>
+					<p>Our interest in the client makes us offer the best plans to take advantage of all the real estate
+						resources and carry out the work accurately through a clear time plan and complete it on the
+						specified dates.</p>
+					<!-- <img loading="lazy" src="images/company/message.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--
+Start About Section
+==================================== -->
+	<section class="service-2 section">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-lg-6">
+					<!-- section title -->
+					<div class="title text-center">
+						<h2>Sectors</h2>
+						<p>Acacia puts in your hands an integrated set of services and rich experiences in the field of
+							investment and development
+							real estate across its specialized sectors.</p>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row text-center">
+						<!-- <div class="col-md-4 col-sm-4">
+							<div class="service-item" onclick="window.location.href='real_state.html'">
+								<i class="tf-ion-ios-alarm-outline"></i>
+								<h4>Real Estate</h4>
+								<p>In Acacia, we aim to provide our real estate services in property management,
+									marketing and real estate development according to the best modern practices to meet
+									the customer's needs.
+								</p>
+							</div>
+						</div> -->
+						<div class="col-md-6 col-sm-4">
+							<div class="service-item" onclick="window.location.href='construction.html'">
+								<img src="https://cdn-icons-png.flaticon.com/512/602/602287.png" alt="icon"
+									loading="lazy" width="60px" class="mb-3">
+								<h4 class="mb-4">Acacia Construction</h4>
+								<p>We specialize in providing contracting services for plumbing, electricity and air
+									conditioning works in residential and commercial projects by providing engineers and
+									cadres trained on the highest standards of quality and safety.</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-6 col-sm-4">
+							<div class="service-item" onclick="window.location.href='operation_maintainence.html'">
+								<img src="https://cdn-icons-png.flaticon.com/512/10758/10758245.png" alt="icon"
+									loading="lazy" width="60px" class="mb-3">
+								<h4 class="mb-4">Acacia Operation & Maintenance</h4>
+								<p>We offer flexible solutions for operation and maintenance services for residential
+									and commercial complexes, with annual contracts that include multiple services and
+									solutions that suit your communities</p>
+							</div>
+						</div><!-- END COL -->
+					</div>
+				</div>
+			</div> <!-- End row -->
+		</div> <!-- End container -->
+	</section> <!-- End section -->
+
+	<section class="company-mission section-sm bg-gray">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2><span class="color">Our Values</span></h2>
+						<div class="border"></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<img class="mb-3" loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-1.svg"
+						alt="icon">
+					<h4>Quality</h4>
+					<p>We always strive for the interest of our partners to be the beginning of the road to excellence
+						and innovation by carrying out tasks with complete professionalism in order to transcend our
+						partners by creating added value for their projects.</p>
+					<!-- <img loading="lazy" src="images/company/company-image-2.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0 mb-3">
+					<img class="mb-3" loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-2.svg"
+						alt="icon">
+					<h4>Honesty</h4>
+					<p>In Acacia, we work on the principle of clarity and honesty in all dealings by presenting all data
+						in an understandable and clear manner</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0">
+					<img class="mb-3" loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-1.svg"
+						alt="icon">
+					<h4>Innovation and Development</h4>
+					<p>Always participating in presenting distinctive ideas in addition to keeping pace with modern
+						technologies to present our creative touches in the real estate field</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0">
+					<img class="mb-3" loading="lazy" src="https://acaciare.net/wp-content/uploads/2021/12/icon-4.svg"
+						alt="icon">
+					<h4>Team Work</h4>
+					<p>Formation of a strong relationship between the technical staff that develops the interest of the
+						company by committing to implementing tasks and goals that guarantee positive results for faster
+						growth.
+					</p>
+					<!-- <img loading="lazy" src="images/company/company-image-3.jpg" alt="" class="img-fluid mt-30"> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<span id="services" style="background-color: #f7f7f7; display: block;">
+		<br><br>
+	</span>
+
+	<section class="blog" id="blog">
+		<div class="container" style="position: relative;">
+			<div class="row justify-content-center">
+
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2><span class="color">Our Services</span></h2>
+						<div class="border"></div>
+						<p>What are the services provided by the real estate investment sector ?</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper ml-3">
+							<img class="pt-3" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-1.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content text-center">
+							<h3><a style="font-size:19px;">Real Estate development</a></h3>
+							<p>In Acacia, we have highly experienced technical staff that help develop real estate
+								products in an optimal way, according to studies and designs that achieve the maximum
+								possible benefit.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper ml-3">
+							<img class="pt-3" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-2.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content text-center">
+							<h3><a style="font-size:19px;">Property Management</a></h3>
+							<p>We seek in Acacia Real Estate, through the specialized work team, to manage real estate
+								properties according to the highest quality standards, in a way that guarantees the
+								preservation of the value of the real estate asset and the growth of its revenues.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper ml-3">
+							<img class="pt-3" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-3.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content text-center">
+							<h3><a style="font-size:19px;">Real Estate Marketing</a></h3>
+							<p>In Acacia Real Estate, we have the experience and knowledge of the real estate market
+								needs and a network of relationships from companies and individuals that contribute to
+								the effective ability to market various real estate products.</p>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-6 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper ml-3">
+							<img class="pt-3" loading="lazy"
+								src="https://acaciare.net/wp-content/uploads/2021/12/serv-icon-4.svg"
+								alt="amazing caves coverimage" class="img-fluid">
+						</div>
+
+						<div class="content text-center">
+							<h3><a style="font-size:19px;">Real estate Appraisal </a></h3>
+							<p>By following the approved standards in real estate appraisal and with a trained team that
+								holds the necessary certificates, we at Acacia Real Estate do real estate appraisal
+								services.</p>
+						</div>
+					</div>
+				</article>
+			</div>
+			<img src="https://acaciare.net/wp-content/themes/ibtikarat-acaciare/assets/img/service_bg_layer.svg"
+				alt="section_footer" loading="lazy"
+				style="position: absolute; bottom: -60px; left: -16%; width: 100vw;">
+		</div>
+	</section>
+
+	<!-- Start Counter Section -->
+	<section class="counter-wrapper section-sm">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8 text-center">
+					<div class="title">
+						<h2>Acacia Numbers</h2>
+						<div class="border"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- first count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-analytics-outline"></i>
+
+						<div>
+							<span class="counter" data-count="150000">0</span>+
+						</div>
+
+						<h3>Managed Spaces <h6>in Square meters</h6>
+						</h3>
+					</div>
+				</div>
+				<!-- end first count item -->
+
+				<!-- second count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-home-outline"></i>
+						<div>
+							<span class="counter" data-count="200">0</span>million
+						</div>
+						<h3>Assets Number</h3>
+					</div>
+				</div>
+				<!-- end second count item -->
+
+				<!-- third count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item">
+						<i class="tf-ion-ios-person-outline"></i>
+						<div>
+							<span class="counter" data-count="2000">0</span>+
+						</div>
+						<h3>Customers Number</h3>
+
+					</div>
+				</div>
+				<!-- end third count item -->
+
+				<!-- fourth count item -->
+				<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+					<div class="counters-item kill-border">
+						<i class="tf-ion-ios-people-outline"></i>
+						<div>
+							<span class="counter" data-count="100">0</span>+
+						</div>
+						<h3>Employees Number</h3>
+					</div>
+				</div>
+				<!-- end fourth count item -->
+			</div> <!-- end row -->
+		</div> <!-- end container -->
+	</section>
+
+
+	<!-- <section class="call-to-action-2 section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tempor eros. Pellentesque
+						elementum nulla sed justo tempor posuere sit amet sit amet ligula.</h2>
+				</div>
+			</div> 
+		</div>  
+	</section> -->
+
+	<!-- <section class="section gallery">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center">
+						<h2>Sneak Peak Gallery</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore numquam esse vitae
+							recusandae qui
+							aspernatur, blanditiis, laboriosam dignissimos dolore facere provident ex? Porro,
+							praesentium consectetur
+							tempore. Nulla, error eius dolorem.</p>
+						<div class="border"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="company-gallery">
+						<img loading="lazy" src="images/company/gallery-1.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-2.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-3.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-4.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-1.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-2.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-3.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-4.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+						<img loading="lazy" src="images/company/gallery-5.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+	<section class="team" id="team">
+		<div class="container">
+			<div class="row justify-content-center">
+				<!-- section title -->
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2>Some Of Our Work</h2>
+						<div class="border"></div>
+					</div>
+				</div>
+				<!-- /section title -->
+			</div>
+			<div class="row">
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center" style="cursor: pointer;"
+						onclick="window.location.href='acacia_logistics_post.html'">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/store-5619201_1920-400x310.jpg"
+								alt="Meghna">
+
+
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia Logestics</h3>
+							<span>Warehouse complex</span>
+							<p>A warehouse complex built on an area of ​​​​8000 square meters, containing 20 warehouses
+								of different sizes and equipped according to the regulations of civil defense and the
+								Secretariat.</p>
+						</div>
+						<!-- /member name & designation -->
+
+					</div>
+				</div>
+				<!-- end team member -->
+
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center" style="cursor: pointer;"
+						onclick="window.location.href='acacia1_post.html'">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/construction-889171_1920-400x310.jpg"
+								alt="Meghna">
+
+
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia 1</h3>
+							<span>Warehouse complex</span>
+							<p>It is a development project in the heart of the capital, Riyadh, located on Imam
+								Abdulaziz bin Muhammad bin Saud Road near King Saud Medical City, and the project
+								contains more than 90 residential units of different sizes and commercial showrooms with
+								commercial areas exceeding 800 square meters.</p>
+						</div>
+						<!-- /member name & designation -->
+					</div>
+				</div>
+				<!-- end team member -->
+
+				<!-- team member -->
+				<div class="col-lg-4 col-md-6">
+					<div class="team-member text-center" style="cursor: pointer;"
+						onclick="window.location.href='acacia2_post.html'">
+						<div class="member-photo">
+							<!-- member photo -->
+							<img loading="lazy" class="img-fluid"
+								src="https://acaciare.net/wp-content/uploads/2021/12/buildings-205986_1920-400x310.jpg"
+								alt="Meghna">
+
+
+						</div>
+
+						<!-- member name & designation -->
+						<div class="member-content">
+							<h3>Acacia 2</h3>
+							<span>Apartment complex</span>
+							<p>It is a development project in the heart of the capital, Riyadh, on Imam Abdulaziz bin
+								Muhammad bin Saud Road, near King Saud Medical City. The project contains more than 90
+								housing units of different sizes and commercial showrooms.</p>
+						</div>
+						<!-- /member name & designation -->
+
+					</div>
+				</div>
+				<!-- end team member -->
+			</div> <!-- End row -->
+			<div class="row d-flex justify-content-center align-items-center">
+				<button
+					style="background-color: #3f3f3f; color: #fff; border-radius: 15px; padding: 10px 15px; border: none;"
+					onclick="window.location.href='Acacia-work.html'">Show more...</button>
+			</div>
+		</div> <!-- End container -->
+	</section>
+
+
+	<!-- <section class="blog" id="blog">
+		<div class="container">
+			<div class="row justify-content-center">
+
+				<div class="col-xl-6 col-lg-8">
+					<div class="title text-center ">
+						<h2> Latest <span class="color">Projects</span></h2>
+						<div class="border"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere accusamus,
+							reprehenderit libero inventore nam.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<article class="col-lg-4 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper">
+							<img loading="lazy" src="images/blog/post-1.jpg" alt="amazing caves coverimage"
+								class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a>Reasons to Smile</a></h3>
+							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+								squid. 3 wolf
+								moon officia aute, non skateboard dolor brunch.</p>
+							<a class="btn btn-main">Read more</a>
+						</div>
+					</div>
+				</article>
+
+				
+
+				<article class="col-lg-4 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper">
+							<img loading="lazy" src="images/blog/post-2.jpg" alt="amazing caves coverimage"
+								class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a>A Few Moments</a></h3>
+							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+								squid. 3 wolf
+								moon officia aute, non skateboard dolor brunch.</p>
+							<a class="btn btn-main">Read more</a>
+						</div>
+					</div>
+				</article>
+
+				
+
+				<article class="col-lg-4 col-md-6">
+					<div class="post-item">
+						<div class="media-wrapper">
+							<img loading="lazy" src="images/blog/post-3.jpg" alt="amazing caves coverimage"
+								class="img-fluid">
+						</div>
+
+						<div class="content">
+							<h3><a>Hints for Life</a></h3>
+							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+								squid. 3 wolf
+								moon officia aute, non skateboard dolor brunch.</p>
+							<a class="btn btn-main">Read more</a>
+						</div>
+					</div>
+				</article>
+
+			</div> 
+		</div> 
+	</section>  -->
+
+	<!-- Google Map -->
+	<div class="google-map">
+		<div id="map_canvas" class="map_canvas" data-longitude="46.586239" data-latitude="24.687824"
+			data-marker="images/marker.png" data-marker-name="Acacia"></div>
+	</div>
+
+	<footer id="footer" class="bg-one">
+		<div class="top-footer">
+			<div class="container">
+				<div class="row justify-content-around">
+					<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+						<h3>about</h3>
+						<p>A Saudi company based in the capital, Riyadh, in order to provide the best real estate
+							options and services to its partners by adopting the best professional practices in the real
+							estate field, to become a reference and a milestone in the real estate sector in the Kingdom
+							of Saudi Arabia.</p>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+						<ul>
+							<li>
+								<h3>Our Services</h3>
+							</li>
+							<!-- <li><a href="real_state.html">Real state</a></li> -->
+							<li><a href="construction.html">Construction</a></li>
+							<li><a href="operation_maintainence.html">Operation and Maintenance</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+						<ul>
+							<li>
+								<h3>Quick Links</h3>
+							</li>
+							<!-- <li><a href="about.html">About</a></li> -->
+							<!-- <li><a href="real_state.html">Real state</a></li> -->
+							<li><a href="construction.html">Construction</a></li>
+							<li><a href="operation_maintainence.html">Operation and Maintenance</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+					<div class="col-lg-3 col-md-6">
+						<ul>
+							<li>
+								<h3>Connect with us Socially</h3>
+							</li>
+							<li><a href="info@acaciare.net">info@acaciare.net</a></li>
+							<li><a href="tel:920022630">920022630</a></li>
+							<li><a href="https://sa.linkedin.com/company/acaciare" target="_blank">Linkedin</a></li>
+							<li><a href="https://twitter.com/acaciare" target="_blank">Twitter</a></li>
+							<li><a href="https://www.instagram.com/acaciare" target="_blank">instagram</a></li>
+							<li><a href="#">Riyadh - Irqah neighborhood - Prince Mishaal bin Abdulaziz Street - Office
+									4, Building No. 2405</a>
+							</li>
+						</ul>
+					</div>
+					<!-- End of .col-sm-3 -->
+
+				</div>
+			</div> <!-- end container -->
+		</div>
+
+	</footer>
+
+
+	<!-- end Footer Area
+========================================== -->
+	<!-- 
+    Essential Scripts
+    =====================================-->
+	<!-- Main jQuery -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap4 -->
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<!-- Parallax -->
+	<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+	<!-- lightbox -->
+	<script src="plugins/lightbox2/js/lightbox.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- filter -->
+	<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+	<!-- Smooth Scroll js -->
+	<script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+	<script src="plugins/google-map/gmap.js"></script>
+
+	<!-- Custom js -->
+	<script src="js/script.js"></script>
 
 </body>
 
