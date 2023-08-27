@@ -582,6 +582,7 @@ form#search-form button i {
   }
 }
 .navigation .dropdown:hover > .dropdown-menu {
+  border-radius: 10px;
   visibility: visible;
   opacity: 1;
 }
